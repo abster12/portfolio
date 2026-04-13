@@ -40,7 +40,7 @@
             <div class="hero-links">
                 <a href="https://github.com/abster12" target="_blank" class="hero-link"><i class="fab fa-github"></i></a>
                 <a href="mailto:abhi.gyan.met16@itbhu.ac.in" class="hero-link"><i class="fas fa-envelope"></i></a>
-                <a href="https://linkedin.com" target="_blank" class="hero-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/abhigyan-80417a129" target="_blank" class="hero-link"><i class="fab fa-linkedin"></i></a>
             </div>
             <a href="#contact" class="hero-cta">Get In Touch</a>
         </div>
@@ -54,9 +54,9 @@
             <h2 class="section-title">About Me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>I build scalable systems and AI-powered platforms that handle millions of requests. Currently at Walmart, working on production AI infrastructure featuring RAG systems and multi-agent orchestration for AI developer tooling.</p>
-                    <p>Previously built payment systems at Rakuten, scaled a platform from 0 to 10K DAU as founding engineer at Podeum, and worked on big data pipelines at Morgan Stanley.</p>
-                    <p> passionate about architecting distributed systems and leveraging LLMs to build transformative products. I thrive at the intersection of traditional software engineering and cutting-edge AI.</p>
+                    <p>I architect and build AI-powered platforms that handle millions of requests in production. At Walmart, I lead the AI platform team — building RAG systems, multi-agent orchestration frameworks, and LLM-based developer tooling used by engineers across the org.</p>
+                    <p>My work sits at the intersection of <strong>traditional distributed systems</strong> and <strong>cutting-edge AI infrastructure</strong>. I care deeply about building things that scale, are observable, and actually make engineers more productive.</p>
+                    <p>I have 5+ years of experience across fintech, gaming, and enterprise AI — from scaling a platform from 0 to 10K daily users as a founding engineer, to optimizing high-throughput workflow APIs serving 1500+ concurrent executions.</p>
                 </div>
                 <div class="about-info">
                     <div class="info-card">
@@ -118,11 +118,11 @@
                     <h3>AI & LLM Systems</h3>
                     <div class="skill-tags">
                         <span>RAG</span>
-                        <span>Multi-Agent Systems</span>
+                        <span>Multi-Agent</span>
                         <span>Milvus</span>
+                        <span>Vision LLMs</span>
                         <span>Claude Code</span>
                         <span>Cursor</span>
-                        <span>Windsurf</span>
                     </div>
                 </div>
                 <div class="skill-card">
@@ -154,10 +154,11 @@
                         </div>
                         <span class="timeline-date">May 2024 – Present</span>
                         <ul class="timeline-details">
-                            <li>Architected workflow APIs and multi-tenant architecture</li>
-                            <li>Integrated Orkes for workflow orchestration</li>
-                            <li>Built production AI platform with RAG and multi-agent orchestration</li>
-                            <li>Developed AI developer tooling for enhanced productivity</li>
+                            <li>Reduced P95 latency of core workflow APIs from ~200ms to ~130ms, scaling to 1500+ concurrent executions/sec through DB query optimization and infra tuning</li>
+                            <li>Designed multi-tenant onboarding architecture supporting multiple teams and workflow engines per tenant within a shared cluster</li>
+                            <li>Built production AI platform: RAG pipelines (Docling, pdfplumber, Vision LLMs), hybrid retrieval (Milvus semantic + BM25 with RRF + cross-encoder re-ranking), LLM response generation with eval pipelines</li>
+                            <li>Implemented stateful multi-agent orchestration with task decomposition, parallel execution, dynamic model selection, and deterministic pause/resume for human-in-the-loop code review cycles</li>
+                            <li>Built AI-powered developer tooling and introduced spec-driven development workflows using LLMs across the backend team</li>
                         </ul>
                     </div>
                 </div>
@@ -170,9 +171,9 @@
                         </div>
                         <span class="timeline-date">May 2023 – May 2024</span>
                         <ul class="timeline-details">
-                            <li>Payment batch processing systems</li>
-                            <li>Built mock server framework for testing</li>
-                            <li>Optimized system performance and reliability</li>
+                            <li>Designed high-volume payment batch processing systems and APIs enabling third-party integrations across multiple Rakuten brands</li>
+                            <li>Built Java-based mock server framework simulating external payment providers — improving integration test coverage and reliability</li>
+                            <li>Owned end-to-end payment service reliability and performance optimization</li>
                         </ul>
                     </div>
                 </div>
@@ -185,9 +186,9 @@
                         </div>
                         <span class="timeline-date">July 2022 – May 2023</span>
                         <ul class="timeline-details">
-                            <li>Scaled platform from 0 to ~10K DAU</li>
-                            <li>Built authentication systems</li>
-                            <li>Implemented virtual economy and in-app purchases</li>
+                            <li>Built and scaled backend services from scratch (Java/Spring) — grew from 0 to ~10,000 daily active users</li>
+                            <li>Designed core platform: authentication, virtual economy, in-app purchases, and real-time live score feeds</li>
+                            <li>Led technical decisions across the stack as the first engineering hire</li>
                         </ul>
                     </div>
                 </div>
@@ -200,9 +201,9 @@
                         </div>
                         <span class="timeline-date">Oct 2020 – June 2022</span>
                         <ul class="timeline-details">
-                            <li>Big Data pipeline development</li>
-                            <li>CI/CD implementation with Jenkins & SonarQube</li>
-                            <li>Quality assurance automation</li>
+                            <li>Developed and maintained Big Data applications for financial data processing pipelines</li>
+                            <li>Set up CI/CD pipelines with Jenkins and Sonar — improving code quality and deployment workflows</li>
+                            <li>Automated QA processes reducing manual overhead across the team</li>
                         </ul>
                     </div>
                 </div>
@@ -218,12 +219,13 @@
                     <div class="project-icon">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <h3>AI RAG Platform</h3>
-                    <p>Production-ready retrieval augmented generation system with vector storage and intelligent document processing.</p>
+                    <h3>Production AI Platform</h3>
+                    <p>End-to-end RAG platform at Walmart: Docling + pdfplumber for document parsing, Vision LLMs for OCR, Milvus hybrid retrieval (BM25 + semantic with RRF & cross-encoder re-ranking), and LLM-based response generation with evaluation and observability pipelines.</p>
                     <div class="project-tags">
                         <span>RAG</span>
                         <span>Milvus</span>
-                        <span>LLMs</span>
+                        <span>Vision LLMs</span>
+                        <span>Python</span>
                     </div>
                 </div>
                 <div class="project-card">
@@ -231,10 +233,11 @@
                         <i class="fas fa-users-cog"></i>
                     </div>
                     <h3>Multi-Agent Orchestration</h3>
-                    <p>AI agent coordination system enabling complex task decomposition and execution across multiple specialized agents.</p>
+                    <p>Stateful AI agent coordination system featuring task decomposition, parallel execution, dynamic model selection, and deterministic pause/resume — enabling human-in-the-loop code generation and review cycles in production.</p>
                     <div class="project-tags">
                         <span>Multi-Agent</span>
                         <span>Orkes</span>
+                        <span>Workflow State</span>
                     </div>
                 </div>
                 <div class="project-card">
@@ -242,10 +245,10 @@
                         <i class="fas fa-workflow"></i>
                     </div>
                     <h3>Workflow Engine APIs</h3>
-                    <p>Scalable workflow orchestration APIs supporting multi-tenant architecture with high availability.</p>
+                    <p>Core Start/Update Workflow APIs serving 1500+ synchronous executions/sec with P95 latency reduced from ~200ms to ~130ms. Multi-tenant architecture with shared cluster isolation for multiple teams and workflow engines.</p>
                     <div class="project-tags">
-                        <span>API</span>
-                        <span>Workflows</span>
+                        <span>Spring Boot</span>
+                        <span>Kafka</span>
                         <span>Multi-tenant</span>
                     </div>
                 </div>
@@ -254,11 +257,35 @@
                         <i class="fas fa-gamepad"></i>
                     </div>
                     <h3>Gaming Platform Backend</h3>
-                    <p>Full backend for gaming platform handling auth, virtual economy, and in-app purchases at scale.</p>
+                    <p>Full backend for gaming platform at Podeum: authentication, virtual economy, in-app purchases, and real-time live score feeds — scaled to 10K DAU from day one.</p>
                     <div class="project-tags">
+                        <span>Java</span>
                         <span>Auth</span>
-                        <span>Payments</span>
-                        <span>Scaling</span>
+                        <span>Real-time</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <h3>Payment Processing System</h3>
+                    <p>High-volume payment batch processing system at Rakuten with Java mock server framework for simulating external providers — improving integration test reliability across multiple brands.</p>
+                    <div class="project-tags">
+                        <span>Java</span>
+                        <span>Batch Processing</span>
+                        <span>Fintech</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>AI DevTooling & Workflows</h3>
+                    <p>Internal AI-powered developer tooling and spec-driven development workflows using LLMs — improving engineering velocity and consistency across feature development at Walmart.</p>
+                    <div class="project-tags">
+                        <span>LLMs</span>
+                        <span>CI/CD</span>
+                        <span>Developer Experience</span>
                     </div>
                 </div>
             </div>
@@ -269,7 +296,7 @@
         <div class="container">
             <h2 class="section-title">Let's Connect</h2>
             <div class="contact-content">
-                <p class="contact-text">I'm always interested in hearing about new opportunities and exciting projects in AI/LLM systems and distributed systems.</p>
+                <p class="contact-text">I'm always open to discussing new opportunities, interesting projects in AI infrastructure and distributed systems, or just geeking out about LLMs and multi-agent architectures.</p>
                 <div class="contact-links">
                     <a href="mailto:abhi.gyan.met16@itbhu.ac.in" class="contact-link">
                         <i class="fas fa-envelope"></i>
@@ -279,7 +306,7 @@
                         <i class="fab fa-github"></i>
                         <span>github.com/abster12</span>
                     </a>
-                    <a href="https://linkedin.com" target="_blank" class="contact-link">
+                    <a href="https://www.linkedin.com/in/abhigyan-80417a129" target="_blank" class="contact-link">
                         <i class="fab fa-linkedin"></i>
                         <span>LinkedIn</span>
                     </a>
@@ -296,6 +323,5 @@
     </footer>
 
     <script src="script.js"></script>
-<script src="script.js"></script>
 </body>
 </html>

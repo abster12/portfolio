@@ -4,14 +4,14 @@ Senior Software Engineer specializing in AI/LLM Systems & Scalable Distributed S
 
 Currently building production AI infrastructure at Walmart, working on RAG systems, multi-agent orchestration, and AI-powered developer tooling.
 
-**Website:** https://abster12.github.io/portfolio
+**Portfolio:** https://abster12.github.io/portfolio
 
 ## Tech Stack
 
-- **AI/LLM:** RAG, Multi-Agent Systems, Milvus, Claude, GPT, Llama
+- **AI/LLM:** RAG, Multi-Agent Systems, Milvus, Vision LLMs, Claude Code, Cursor
 - **Backend:** Spring Boot, Dropwizard, Kafka, Workflow Engines
 - **Cloud:** AWS, Docker, Kubernetes, CI/CD
-- **Tools:** Claude Code, Cursor, Windsurf
+- **Data:** MySQL, ELK Stack, Big Data
 
 ## Experience
 
@@ -23,4 +23,5 @@ Currently building production AI infrastructure at Walmart, working on RAG syste
 ## Connect
 
 - GitHub: https://github.com/abster12
+- LinkedIn: https://www.linkedin.com/in/abhigyan-80417a129
 - Email: abhi.gyan.met16@itbhu.ac.in
