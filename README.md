@@ -24,4 +24,4 @@ Currently building production AI infrastructure at Walmart, working on RAG syste
 
 - GitHub: https://github.com/abster12
 - LinkedIn: https://www.linkedin.com/in/abhigyan-80417a129
-- Email: abhi.gyan.met16@itbhu.ac.in
+- Email: abhigyan0987@gmail.com
